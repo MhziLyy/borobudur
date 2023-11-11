@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans';
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.medsos{
+    padding: 20px 0;
+    background-color: #187cb2;
+}
+.medsos ul li{
+    display: inline-block;
+    color: #fff;
+    margin-left: 10px;
+}
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header h1{
+    float: left;
+    padding: 15px 20px;
+    color: black;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+
+}
+header ul li a:hover{
+    background-color: #187cb2;
+    color: #fff;
+}
+.active{
+      background-color: #187cb2;
+    color: #fff;
+}
+.gambar{
+    height: 60vh;
+    background-image: url('./gambar/4.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gambar::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(225, 225, 225, -2);
+}
+.gambar h2{
+    color: orangered;
+    font-size: 72px;
+    font-family: 'Times New Roman';
+    z-index: 1;
+}
+section{
+    padding: 50px 0;
+  
+}
+section h3{
+    text-align: center;
+    padding: 20px 0;
+    color: #333;
+    margin-bottom: 20px;
+    
+}
+.ABOUT{
+    background-color: #f9f9f9;
+    color: #333;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.ABOUT h3{
+    font-size: 30px;
+}
+.ABOUT p{
+
+    margin: 25px;
+    text-align: justify;
+    font-size: 20px;
+}
+.ABOUT img{
+    width: 500px;
+    height: 300px;
+}
+section{
+    padding: 50px 0;
+
+}
+section h4{
+    text-align: center;
+    padding: 20px 0;
+   color: #333;
+    margin-bottom: 25px;
+}
+.SEJARAH{
+    background-color: #f9f9f9;
+    color: #333;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.SEJARAH h4{
+    font-size: 30px;
+}
+.SEJARAH p{
+
+    margin: 25px;
+    text-align: justify;
+    font-size: 20px;
+}
+.SEJARAH img{
+    width: 500px;
+    height: 300px;
+}
+section{
+    padding: 50px 0;
+
+}
+section h5{
+    text-align: center;
+    padding: 20px 0;
+    color: #333;
+    margin-bottom: 20px;
+}
+.galeri h5{
+    font-size: 30px;
+}
+.galeri p{
+    color: #333;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.galeri img{
+    width: 400px;
+    height: 200px;
+}
+.label{
+    background-color: orange;
+    color: #fff;
+    font-size: 25px;
+    padding: 40px 0;
+}
+
