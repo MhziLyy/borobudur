@@ -72,7 +72,7 @@ header ul li a:hover{
     background-color: rgba(225, 225, 225, -2);
 }
 .gambar h2{
-    color: orangered;
+    color: black;
     font-size: 72px;
     font-family: 'Times New Roman';
     z-index: 1;
@@ -146,17 +146,21 @@ section h5{
     color: #333;
     margin-bottom: 20px;
 }
-.galeri h5{
-    font-size: 30px;
-}
-.galeri p{
+.galeri{
+    background-color: #f9f9f9;
     color: #333;
     word-spacing: 2px;
     line-height: 25px;
 }
+.galeri h5{
+    color: #333;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: 30px;
+}
 .galeri img{
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
 }
 .label{
     background-color: orange;
